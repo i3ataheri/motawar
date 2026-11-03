@@ -1,0 +1,9 @@
+/* Desktop polish: rounded product media, shorter CTAs and balanced spacing. */
+@media(min-width:600px){
+  .topbar{height:88px}.store-hero{border-radius:0 0 34px 34px}.hero-inner{min-height:500px}.hero-key{border-radius:14px}.hero-tag{border-radius:10px}.category-bar{box-shadow:0 5px 18px #172a2e08}.category-button{border-radius:999px;transition:transform .25s ease,background-color .25s ease}.category-button:hover{transform:translateY(-2px)}
+  .product-card{border-radius:16px;overflow:hidden;border-color:#e6e9e4;box-shadow:0 7px 24px #172a2e0b}.product-art{border-radius:16px 16px 0 0}.product-card:hover{box-shadow:0 16px 35px #172a2e18}.product-info{padding:17px}.buy{border-radius:8px;padding:10px 15px}.nfc-option{border-radius:8px;background:#f4f8f3;padding:8px 9px;margin-top:12px}.nfc-option input{margin-left:2px}.how{padding-top:95px}.steps div{transition:transform .3s ease,box-shadow .3s ease}.steps div:hover{transform:translateY(-5px);box-shadow:0 10px 24px #172a2e0d}.order-note{border-radius:20px;box-shadow:0 12px 30px #f6c94d2c;padding:38px 46px;overflow:hidden}.order-note>div{max-width:760px}.order-note p{max-width:650px;line-height:2;font-size:12px}.order-note .button{border-radius:9px;padding:11px 16px;font-size:11px;white-space:nowrap}.footer-inner{padding:36px 0}.modal-card{border-radius:16px;overflow:hidden}.modal-preview{border-radius:0}
+}
+/* Arabic fallback for dynamic labels and prices. Cairo is bundled locally. */
+.price,.modal-content>strong,.key-art{font-family:Cairo,sans-serif!important}
+.price{direction:rtl}
+.price small{font-family:Cairo,sans-serif!important}
