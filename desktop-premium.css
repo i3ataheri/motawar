@@ -6,6 +6,11 @@
   .product-card .product-info{flex:1;min-height:0;overflow-y:auto;scrollbar-width:thin}
   .product-card .buy{background:var(--orange);color:#fff;min-height:42px;padding:10px 16px;font-size:11px;font-weight:800;box-shadow:0 5px 12px #f2643d3d}
   .product-card .buy:hover,.product-card .buy:focus-visible{background:#d94e2b;outline:3px solid #f6c94d;outline-offset:2px}
+  .modal-card{max-height:calc(100vh - 40px)}
+  .modal-card>*{min-height:0}
+  .modal-content{overflow-y:auto;min-height:0;scrollbar-width:thin}
+  .modal-content .button{position:sticky;bottom:0;z-index:3;background:var(--orange);box-shadow:0 -8px 18px #f7f5f0}
+  .modal-content .button:hover,.modal-content .button:focus-visible{background:#d94e2b;outline:3px solid var(--yellow);outline-offset:2px}
 }
 @media(min-width:600px){
   .topbar{height:88px}.store-hero{border-radius:0 0 34px 34px}.hero-inner{min-height:500px}.hero-key{border-radius:14px}.hero-tag{border-radius:10px}.category-bar{box-shadow:0 5px 18px #172a2e08}.category-button{border-radius:999px;transition:transform .25s ease,background-color .25s ease}.category-button:hover{transform:translateY(-2px)}

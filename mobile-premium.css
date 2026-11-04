@@ -5,6 +5,10 @@
   /* Apply the bundled Arabic face to every mobile text node and form control. */
   body,body *{font-family:CairoLocal,Cairo,sans-serif!important}
   .price{direction:rtl}
+  .modal{z-index:1000}
+  .modal-card{z-index:1001}
+  .modal-preview{min-height:260px}
+  .modal-preview .product-art{height:260px;min-height:260px;background-size:contain!important;background-repeat:no-repeat;background-position:center}
   .topbar{position:relative}
   .contact-top{position:absolute;left:2px;top:50%;transform:translateY(-50%);margin:0;z-index:2}
   .modal-card{position:relative}
