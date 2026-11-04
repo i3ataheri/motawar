@@ -1,4 +1,5 @@
 /* Desktop polish: rounded product media, shorter CTAs and balanced spacing. */
+.car-brand-image{position:relative;z-index:2;max-width:72%;max-height:72%;object-fit:contain}
 /* Keep the purchase area bounded and independently scrollable. */
 @media(min-width:600px){
   .product-card{height:430px;display:flex;flex-direction:column}

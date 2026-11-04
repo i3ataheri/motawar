@@ -25,6 +25,7 @@
 }
 
 /* Premium mobile treatment: airy, touch-friendly and focused on the catalog. */
+.car-brand-image{position:relative;z-index:2;max-width:72%;max-height:72%;object-fit:contain}
 @media(max-width:599px){
   body{background:#f5f3ee;color:#172a2e}
   .topbar{position:sticky;top:0;z-index:20;background:#f7f5f0eF;backdrop-filter:blur(14px);border-bottom:1px solid #dfe4df;padding:0 2px}
