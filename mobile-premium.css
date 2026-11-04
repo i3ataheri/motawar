@@ -2,6 +2,9 @@
 @media(max-width:599px){.services{padding:12px 0 58px}.services-heading h2{font-size:30px}.services-heading p{font-size:11px;line-height:2}.service-grid{grid-template-columns:1fr;gap:12px;margin-top:22px}.service-card{min-height:225px;border-radius:16px;padding:22px 19px}.service-card h3{font-size:16px}.service-card p{font-size:10px;max-width:270px}.service-icon{width:44px;height:44px;margin-bottom:19px}.service-link{right:19px;bottom:19px}.services-note{font-size:10px;line-height:1.9}}
 /* The WhatsApp action stays visible in the upper-left corner on small screens. */
 @media(max-width:599px){
+  /* Apply the bundled Arabic face to every mobile text node and form control. */
+  body,body *{font-family:CairoLocal,Cairo,sans-serif!important}
+  .price{direction:rtl}
   .topbar{position:relative}
   .contact-top{position:absolute;left:2px;top:50%;transform:translateY(-50%);margin:0;z-index:2}
   .modal-card{position:relative}
