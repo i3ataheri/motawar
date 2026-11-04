@@ -1,3 +1,6 @@
+/* Keep Arabic UI text on the bundled font at every breakpoint. */
+.price,.modal-content>strong,.key-art,.price small{font-family:CairoLocal,sans-serif!important}
+
 /* Desktop polish: rounded product media, shorter CTAs and balanced spacing. */
 @media(min-width:600px){
   .topbar{height:88px}.store-hero{border-radius:0 0 34px 34px}.hero-inner{min-height:500px}.hero-key{border-radius:14px}.hero-tag{border-radius:10px}.category-bar{box-shadow:0 5px 18px #172a2e08}.category-button{border-radius:999px;transition:transform .25s ease,background-color .25s ease}.category-button:hover{transform:translateY(-2px)}
