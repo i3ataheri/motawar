@@ -1,5 +1,12 @@
 /* Desktop polish: rounded product media, shorter CTAs and balanced spacing. */
 .car-brand-image{position:relative;z-index:2;max-width:72%;max-height:72%;object-fit:contain}
+.modal{overflow:hidden}
+body.modal-open{overflow:hidden}
+@media(min-width:600px){
+  .modal-card{width:min(680px,calc(100% - 40px));max-height:78vh;grid-template-columns:.82fr 1.18fr;border-radius:18px}
+  .modal-preview{min-height:320px;max-height:78vh}
+  .modal-content{padding:28px 24px}
+}
 /* Keep the purchase area bounded and independently scrollable. */
 @media(min-width:600px){
   .product-card{height:430px;display:flex;flex-direction:column}
